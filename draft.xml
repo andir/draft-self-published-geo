@@ -1215,7 +1215,7 @@ class IPGeoFeedValidatorTest(object):
 
     if msg_count != expected_msg_count:
       print 'TEST FAILED: %s\nexpected %d %s[s], observed %d\n%s\n' % (
-          self.validator.line, expected_sg_count, severity, msg_count,
+          self.validator.line, expected_msg_count, severity, msg_count,
           str(self.validator.output_log[severity]))
       return False
     return True
